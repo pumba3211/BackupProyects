@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0b520da9-4d77-4597-9c82-6ef58b9e3d15" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55919/WebServices/Servicies/Grupo_EstudianteService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Grupo_EstudianteService.xsd" MetadataType="Schema" ID="1c01f351-5ba2-4776-a32f-0f42ade4e0ad" SourceId="1" SourceUrl="http://localhost:55919/WebServices/Servicies/Grupo_EstudianteService.svc?xsd=xsd1" />
+    <MetadataFile FileName="Grupo_EstudianteService.wsdl" MetadataType="Wsdl" ID="59e4c2dc-d37f-4685-a605-2ea02e8bd798" SourceId="1" SourceUrl="http://localhost:55919/WebServices/Servicies/Grupo_EstudianteService.svc?wsdl" />
+    <MetadataFile FileName="Grupo_EstudianteService.disco" MetadataType="Disco" ID="7e04eb03-c55a-47f5-8500-07d2d3024167" SourceId="1" SourceUrl="http://localhost:55919/WebServices/Servicies/Grupo_EstudianteService.svc?disco" />
+    <MetadataFile FileName="Grupo_EstudianteService1.xsd" MetadataType="Schema" ID="239cbe1c-307e-4529-b7b1-1ffae38575fd" SourceId="1" SourceUrl="http://localhost:55919/WebServices/Servicies/Grupo_EstudianteService.svc?xsd=xsd0" />
+    <MetadataFile FileName="Grupo_EstudianteService2.xsd" MetadataType="Schema" ID="1c47cc07-26fb-4517-be99-9c5da00edb02" SourceId="1" SourceUrl="http://localhost:55919/WebServices/Servicies/Grupo_EstudianteService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

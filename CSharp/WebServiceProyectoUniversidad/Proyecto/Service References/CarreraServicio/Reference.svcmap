@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="946cc757-fb91-4b0d-8060-2fbe30b6228e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55919/WebServices/Servicies/CarreraService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CarreraService.xsd" MetadataType="Schema" ID="601750ef-2d49-4978-8fb6-e6eb16a1a17d" SourceId="1" SourceUrl="http://localhost:55919/WebServices/Servicies/CarreraService.svc?xsd=xsd0" />
+    <MetadataFile FileName="CarreraService1.xsd" MetadataType="Schema" ID="9f8ded33-c551-4e9e-86a3-138ea1fa558b" SourceId="1" SourceUrl="http://localhost:55919/WebServices/Servicies/CarreraService.svc?xsd=xsd2" />
+    <MetadataFile FileName="CarreraService2.xsd" MetadataType="Schema" ID="b8529bd0-9b20-46a3-b57e-88275d6a2c2c" SourceId="1" SourceUrl="http://localhost:55919/WebServices/Servicies/CarreraService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CarreraService.wsdl" MetadataType="Wsdl" ID="3c92ae34-b3bc-4e5b-95d5-4932676ed15f" SourceId="1" SourceUrl="http://localhost:55919/WebServices/Servicies/CarreraService.svc?wsdl" />
+    <MetadataFile FileName="CarreraService.disco" MetadataType="Disco" ID="7d352936-b2cb-4b8e-ace3-5ffce469824a" SourceId="1" SourceUrl="http://localhost:55919/WebServices/Servicies/CarreraService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,64 @@
+table{
+  width: 50%;
+  height: 50%;
+}
+
+#game tr td{
+  border: 1px solid black;
+  text-align: center; 
+  border-collapse: collapse;
+  padding: 7px 7px 7px 7px;
+}
+
+.letter 
+{
+  width: 30px;
+  height: 38px;
+  background: red;
+}
+
+#playerletters{
+ border-style: solid;
+ margin-top: 3%;
+ background-image: url("/assets/img/tablero.jpg");
+ width: 81%;
+ padding: 0px;
+ border: 1px solid black;
+
+}
+
+td.letter{
+ text-align: center;
+ padding: 0px;
+ border-style: solid;
+ border: 1px solid black;
+
+}
+.center{
+  text-align: center;
+}
+
+.bordered{
+  padding: 0px;
+}
+
+
+.letter.ui-draggable-dragging { background: green; }
+
+
+
+.red{
+  background-color: darkred;
+}
+.pink{
+  background-color: pink;
+}
+.light_blue{
+  background-color: lightskyblue;
+}
+.blue{
+  background-color: darkblue;
+}
+.yellow{
+  background-color: #ffff00;
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:55919/WebServices/Servicies/Grupo_EstudianteService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" />
+  <xs:element name="InsertarRegistro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" minOccurs="0" name="grupo_estudiante" nillable="true" type="q1:Grupo_Estudiante" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" minOccurs="0" name="administrador" nillable="true" type="q2:Adminstrador" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertarRegistroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertarRegistroResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarRegistro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" minOccurs="0" name="grupo_estudiante" nillable="true" type="q3:Grupo_Estudiante" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" minOccurs="0" name="administrador" nillable="true" type="q4:Adminstrador" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarRegistroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ModificarRegistroResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarRegistro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="n_registro" type="xs:int" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" minOccurs="0" name="administrador" nillable="true" type="q5:Adminstrador" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarRegistroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="EliminarRegistroResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EstudiantesGrupo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id_grupo" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EstudiantesGrupoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" minOccurs="0" name="EstudiantesGrupoResult" nillable="true" type="q6:ArrayOfGrupo_Estudiantes" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ProfesorService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:55919/WebServices/Servicies/ProfesorService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:55919/WebServices/Servicies/ProfesorService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:55919/WebServices/Servicies/ProfesorService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IProfesorService_InsertarProfesor_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarProfesor" />
+  </wsdl:message>
+  <wsdl:message name="IProfesorService_InsertarProfesor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarProfesorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IProfesorService_ModificarProfesor_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarProfesor" />
+  </wsdl:message>
+  <wsdl:message name="IProfesorService_ModificarProfesor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarProfesorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IProfesorService_EliminarProfesor_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarProfesor" />
+  </wsdl:message>
+  <wsdl:message name="IProfesorService_EliminarProfesor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarProfesorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IProfesorService_TraerProfesores_InputMessage">
+    <wsdl:part name="parameters" element="tns:TraerProfesores" />
+  </wsdl:message>
+  <wsdl:message name="IProfesorService_TraerProfesores_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TraerProfesoresResponse" />
+  </wsdl:message>
+  <wsdl:message name="IProfesorService_ObtenerProfesor_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerProfesor" />
+  </wsdl:message>
+  <wsdl:message name="IProfesorService_ObtenerProfesor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerProfesorResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IProfesorService">
+    <wsdl:operation name="InsertarProfesor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IProfesorService/InsertarProfesor" message="tns:IProfesorService_InsertarProfesor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IProfesorService/InsertarProfesorResponse" message="tns:IProfesorService_InsertarProfesor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarProfesor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IProfesorService/ModificarProfesor" message="tns:IProfesorService_ModificarProfesor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IProfesorService/ModificarProfesorResponse" message="tns:IProfesorService_ModificarProfesor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarProfesor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IProfesorService/EliminarProfesor" message="tns:IProfesorService_EliminarProfesor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IProfesorService/EliminarProfesorResponse" message="tns:IProfesorService_EliminarProfesor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TraerProfesores">
+      <wsdl:input wsaw:Action="http://tempuri.org/IProfesorService/TraerProfesores" message="tns:IProfesorService_TraerProfesores_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IProfesorService/TraerProfesoresResponse" message="tns:IProfesorService_TraerProfesores_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerProfesor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IProfesorService/ObtenerProfesor" message="tns:IProfesorService_ObtenerProfesor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IProfesorService/ObtenerProfesorResponse" message="tns:IProfesorService_ObtenerProfesor_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IProfesorService" type="tns:IProfesorService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="InsertarProfesor">
+      <soap:operation soapAction="http://tempuri.org/IProfesorService/InsertarProfesor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarProfesor">
+      <soap:operation soapAction="http://tempuri.org/IProfesorService/ModificarProfesor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarProfesor">
+      <soap:operation soapAction="http://tempuri.org/IProfesorService/EliminarProfesor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TraerProfesores">
+      <soap:operation soapAction="http://tempuri.org/IProfesorService/TraerProfesores" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerProfesor">
+      <soap:operation soapAction="http://tempuri.org/IProfesorService/ObtenerProfesor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ProfesorService">
+    <wsdl:port name="BasicHttpBinding_IProfesorService" binding="tns:BasicHttpBinding_IProfesorService">
+      <soap:address location="http://localhost:55919/WebServices/Servicies/ProfesorService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

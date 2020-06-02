@@ -1,0 +1,34 @@
+c:\users\beto\documents\visual studio 2013\Projects\appMecanicaVarela\appMecanicaVarela\bin\Debug\appMecanicaVarela.exe.config
+C:\Users\Beto\Documents\Visual Studio 2013\Projects\appMecanicaVarela\appMecanicaVarela\bin\Debug\appMecanicaVarela.exe
+C:\Users\Beto\Documents\Visual Studio 2013\Projects\appMecanicaVarela\appMecanicaVarela\bin\Debug\appMecanicaVarela.pdb
+C:\Users\Beto\Documents\Visual Studio 2013\Projects\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.csprojResolveAssemblyReference.cache
+C:\Users\Beto\Documents\Visual Studio 2013\Projects\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.frmLogin.resources
+C:\Users\Beto\Documents\Visual Studio 2013\Projects\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.Properties.Resources.resources
+C:\Users\Beto\Documents\Visual Studio 2013\Projects\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.csproj.GenerateResource.Cache
+C:\Users\Beto\Documents\Visual Studio 2013\Projects\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.exe
+C:\Users\Beto\Documents\Visual Studio 2013\Projects\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.pdb
+C:\Users\Beto\Documents\Visual Studio 2013\Projects\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.frmDashBoard.resources
+C:\Users\Beto\Documents\Visual Studio 2013\Projects\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.frmAgregarRepuesto.resources
+C:\Users\Beto\Documents\Visual Studio 2013\Projects\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.frmEditarRepuesto.resources
+C:\Users\Beto\Documents\Visual Studio 2013\Projects\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.frmEliminarRepuesto.resources
+C:\Users\Beto\Documents\Visual Studio 2013\Projects\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.frmAgregarCliente.resources
+C:\Users\Beto\Documents\Visual Studio 2013\Projects\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.frmEditarCliente.resources
+C:\Users\Beto\Documents\Visual Studio 2013\Projects\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.frmEliminarCliente.resources
+C:\Users\Beto\Documents\Visual Studio 2013\Projects\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.frmRepuestos.resources
+C:\Users\Estudiante\Documents\appMecanicaVarela\appMecanicaVarela\bin\Debug\appMecanicaVarela.exe.config
+C:\Users\Estudiante\Documents\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.exe
+C:\Users\Estudiante\Documents\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.pdb
+C:\Users\Estudiante\Documents\appMecanicaVarela\appMecanicaVarela\bin\Debug\appMecanicaVarela.exe
+C:\Users\Estudiante\Documents\appMecanicaVarela\appMecanicaVarela\bin\Debug\appMecanicaVarela.pdb
+C:\Users\Estudiante\Documents\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.csprojResolveAssemblyReference.cache
+C:\Users\Estudiante\Documents\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.frmAgregarCliente.resources
+C:\Users\Estudiante\Documents\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.frmAgregarRepuesto.resources
+C:\Users\Estudiante\Documents\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.frmDashBoard.resources
+C:\Users\Estudiante\Documents\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.frmEditarCliente.resources
+C:\Users\Estudiante\Documents\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.frmEditarRepuesto.resources
+C:\Users\Estudiante\Documents\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.frmEliminarCliente.resources
+C:\Users\Estudiante\Documents\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.frmEliminarRepuesto.resources
+C:\Users\Estudiante\Documents\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.frmLogin.resources
+C:\Users\Estudiante\Documents\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.frmRepuestos.resources
+C:\Users\Estudiante\Documents\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.Properties.Resources.resources
+C:\Users\Estudiante\Documents\appMecanicaVarela\appMecanicaVarela\obj\Debug\appMecanicaVarela.csproj.GenerateResource.Cache

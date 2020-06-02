@@ -1,0 +1,46 @@
+﻿@model IEnumerable<SuperZapatosApi.Models.Store>
+
+@{
+    ViewBag.Title = "Stores";
+}
+
+<h2>Stores</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create", "List", new { @class = "btn btn-default" })
+</p>
+<table class="table table-responsive table-bordered">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Addres
+        </th>
+        <th>Edit</th>
+        <th>Details</th>
+        <th>Delete</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.addres)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.StoreID }, new { @class = "btn btn-default" })
+            </td>
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.StoreID }, new { @class = "btn btn-default" })
+            </td>
+            <td>
+                @Html.ActionLink("Delete", "Delete", new { id = item.StoreID }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+    }
+
+</table>

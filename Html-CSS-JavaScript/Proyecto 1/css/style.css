@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: "Segoe UI";
+}
+
+/*div o contenido del login*/
+div#login {
+
+    width: 100%;
+    height: 196px;
+    position: absolute;
+    left: 0;
+    margin: 5% 0% 0% 0%;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    box-shadow: 0px 1px 144px 33px rgba(9, 9, 9, .6);
+}
+
+div.conteiner {
+
+    width: 66%;
+
+    height: 524px;
+    margin: 0% 0% 0% 17%;
+}
+
+/*Input*/
+
+/*Estilos de todos los input*/
+input {
+    width: 28%;
+    height: 17%;
+    border: 1px solid #000;
+    border-radius: 6px;
+    box-shadow: 2px 5px 5px 3px rgba(5, 5, 5, .5);
+    text-align: center;
+    margin: 3% 0% 0% 34%;
+}
+
+/*Estilo para el boton ingresar*/
+input#ingresar {
+    width: 8%;
+    margin: 0% 0% 0% 43%;
+}
+
+/*Estilo para el placeholder de los input*/
+input::-webkit-input-placeholder {
+    color: rgba(45, 45, 45, .55);
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Imagenes*/
+
+/*Imagen de logo de UTN*/
+img {
+    margin: 4% 0% 0% 17%;
+}
+
+/*Imagen dentro del texto de username*/
+img.user {
+    width: 6%;
+    float: left;
+    z-index: 2;
+    position: absolute;
+    margin: 8% 0% 0% 13%;
+}
+
+/*Imagen dentro del texto de password*/
+img.password {
+    width: 5%;
+    z-index: 1;
+    position: absolute;
+    margin: 21% 0% 0% 13%;
+}
+
+a.login {
+    float: left;
+    position: absolute;
+    margin: 0% 0% 0% 41%;
+}
+
+a.buscar {
+    float: left;
+    position: absolute;
+    margin: 0% 0% 0% 50%;
+}
+
+div.prueba {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Persona">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Apellidos" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Cedula" type="xs:int" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Persona" nillable="true" type="tns:Persona" />
+  <xs:complexType name="Adminstrador">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Adminstrador" nillable="true" type="tns:Adminstrador" />
+  <xs:complexType name="ArrayOfAdministrador_Persona">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Administrador_Persona" nillable="true" type="tns:Administrador_Persona" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAdministrador_Persona" nillable="true" type="tns:ArrayOfAdministrador_Persona" />
+  <xs:complexType name="Administrador_Persona">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Apellidos" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Cedula" type="xs:int" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Administrador_Persona" nillable="true" type="tns:Administrador_Persona" />
+</xs:schema>

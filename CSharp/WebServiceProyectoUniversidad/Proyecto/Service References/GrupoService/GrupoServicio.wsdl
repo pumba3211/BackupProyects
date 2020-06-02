@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="GrupoServicio" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:55919/WebServices/Servicies/GrupoServicio.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:55919/WebServices/Servicies/GrupoServicio.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:55919/WebServices/Servicies/GrupoServicio.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IGrupoServicio_InsertarGrupo_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarGrupo" />
+  </wsdl:message>
+  <wsdl:message name="IGrupoServicio_InsertarGrupo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarGrupoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGrupoServicio_Modificargrupo_InputMessage">
+    <wsdl:part name="parameters" element="tns:Modificargrupo" />
+  </wsdl:message>
+  <wsdl:message name="IGrupoServicio_Modificargrupo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificargrupoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGrupoServicio_EliminarGrupo_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarGrupo" />
+  </wsdl:message>
+  <wsdl:message name="IGrupoServicio_EliminarGrupo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarGrupoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGrupoServicio_CargarGrupos_InputMessage">
+    <wsdl:part name="parameters" element="tns:CargarGrupos" />
+  </wsdl:message>
+  <wsdl:message name="IGrupoServicio_CargarGrupos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CargarGruposResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGrupoServicio_ObtenerGrupo_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerGrupo" />
+  </wsdl:message>
+  <wsdl:message name="IGrupoServicio_ObtenerGrupo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerGrupoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IGrupoServicio">
+    <wsdl:operation name="InsertarGrupo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGrupoServicio/InsertarGrupo" message="tns:IGrupoServicio_InsertarGrupo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGrupoServicio/InsertarGrupoResponse" message="tns:IGrupoServicio_InsertarGrupo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Modificargrupo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGrupoServicio/Modificargrupo" message="tns:IGrupoServicio_Modificargrupo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGrupoServicio/ModificargrupoResponse" message="tns:IGrupoServicio_Modificargrupo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarGrupo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGrupoServicio/EliminarGrupo" message="tns:IGrupoServicio_EliminarGrupo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGrupoServicio/EliminarGrupoResponse" message="tns:IGrupoServicio_EliminarGrupo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CargarGrupos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGrupoServicio/CargarGrupos" message="tns:IGrupoServicio_CargarGrupos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGrupoServicio/CargarGruposResponse" message="tns:IGrupoServicio_CargarGrupos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerGrupo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGrupoServicio/ObtenerGrupo" message="tns:IGrupoServicio_ObtenerGrupo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGrupoServicio/ObtenerGrupoResponse" message="tns:IGrupoServicio_ObtenerGrupo_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IGrupoServicio" type="tns:IGrupoServicio">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="InsertarGrupo">
+      <soap:operation soapAction="http://tempuri.org/IGrupoServicio/InsertarGrupo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Modificargrupo">
+      <soap:operation soapAction="http://tempuri.org/IGrupoServicio/Modificargrupo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarGrupo">
+      <soap:operation soapAction="http://tempuri.org/IGrupoServicio/EliminarGrupo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CargarGrupos">
+      <soap:operation soapAction="http://tempuri.org/IGrupoServicio/CargarGrupos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerGrupo">
+      <soap:operation soapAction="http://tempuri.org/IGrupoServicio/ObtenerGrupo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GrupoServicio">
+    <wsdl:port name="BasicHttpBinding_IGrupoServicio" binding="tns:BasicHttpBinding_IGrupoServicio">
+      <soap:address location="http://localhost:55919/WebServices/Servicies/GrupoServicio.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:55919/WebServices/Servicies/ProfesorService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" />
+  <xs:element name="InsertarProfesor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" minOccurs="0" name="persona" nillable="true" type="q1:Persona" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" minOccurs="0" name="Profesor" nillable="true" type="q2:Profesor" />
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" minOccurs="0" name="administrador" nillable="true" type="q3:Adminstrador" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertarProfesorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertarProfesorResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarProfesor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" minOccurs="0" name="persona" nillable="true" type="q4:Persona" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" minOccurs="0" name="Profesor" nillable="true" type="q5:Profesor" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" minOccurs="0" name="administrador" nillable="true" type="q6:Adminstrador" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarProfesorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ModificarProfesorResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarProfesor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID_Profesor" type="xs:int" />
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" minOccurs="0" name="administrador" nillable="true" type="q7:Adminstrador" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarProfesorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="EliminarProfesorResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TraerProfesores">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="filtro" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TraerProfesoresResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" minOccurs="0" name="TraerProfesoresResult" nillable="true" type="q8:ArrayOfProfesorPersona" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerProfesor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID_Profesor" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerProfesorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/WebServiceProyectoUniversidad.Estructuras" minOccurs="0" name="ObtenerProfesorResult" nillable="true" type="q9:ProfesorPersona" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

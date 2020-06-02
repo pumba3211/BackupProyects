@@ -1,0 +1,233 @@
+@charset "utf-8";
+body {
+    background: #e5e5e5;
+    font-family: verdana;
+    font-size: 100%;
+    margin: 0;
+}
+
+/*Tab Menu*/
+#navbar {
+    width: 88%;
+    margin: 5% 0% 0% 10%;
+    float: left;
+
+}
+
+/*Datos del Holder del tab Menu*/
+#navbar #holder {
+    height: 64px;
+    border-bottom: 1px solid #000;
+    width: 57%;
+    padding-left: 54px;
+}
+
+/*Datos de la etiqueta ul del Holder del tab Menu*/
+#navbar #holder ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Datos de la etiqueta ul li y a del Holder del tab Menu*/
+#navbar #holder ul li a {
+    text-decoration: none;
+    float: left;
+    margin-left: 3%;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: #000;
+    border: 1px solid #000;
+    border-bottom: none;
+    padding: 20px;
+    width: 95px;
+    text-align: center;
+    display: block;
+    background: #69F;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+
+}
+
+/*Hover del ul li y a del tab Menu*/
+#navbar #holder ul li a:hover {
+    background: #F90;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+/*Onlink para tener seleccionado donde le de click*/
+#holder ul li a#onlink {
+    background: #fff;
+    color: #000;
+    border-bottom: 1px solid #FFF;
+
+}
+
+/*El hover del OnLink*/
+#holder ul li a#onlink:hover {
+    backgroud: #fff;
+    color: #69f;
+    text-shadow: 1px 1px 1px #000;
+}
+
+/*links*/
+
+/*Link de Salir de admin*/
+a#salir {
+    float: left;
+    margin: 2% 0% 0% 2%;
+
+}
+
+/*Link del Dashboard*/
+a#dashboard {
+    float: left;
+    margin: 6% 60% 0% 12%;
+    font-size: 1em;
+    color: blue;
+    text-decoration: none;
+}
+
+/*Link del nombre dentro del td del Estudiante*/
+a.estudiante {
+    text-decoration: none;
+    color: black;
+}
+
+/*Link del nombre dentro del tr del Estudiante*/
+a.nombre {
+    text-decoration: none;
+    color: black;
+}
+
+img.verEstudiante {
+    width: 33%;
+    margin: 2% 0% 0% 0%;
+}
+
+/*Parrafos*/
+
+/*Texto de Salir que dice Hola Admin*/
+p#salir {
+    float: left;
+    margin: 2% 0% 0% 49%;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+/*Texto que dice Perfiles a la par del logo UTN*/
+p#perfil {
+    float: left;
+    margin: 4% 0% 0% 0%;
+    font-size: 3em;
+    font-family: verdana;
+    color: rgb(13, 29, 110);
+}
+
+/*Texto o figura ">"*/
+p#dashboard {
+    float: left;
+    position: absolute;
+    margin: 10% 0% 0% 13%;
+    font-size: 1em;
+}
+
+/*Texto que nos dice donde estamos ubicados*/
+p#ubicado {
+    position: absolute;
+    top: 123px;
+    left: 283px;
+    font-size: 1em;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+/*div*/
+
+/*Div donde se encuentra los datos que necesitamos debajo del tab Menu*/
+div.tabContent {
+    float: left;
+    margin: 2% 0% 0% 9%;
+    border: 1px solid #000;
+    padding: 5px;
+    padding-right: 29%;
+    width: 41%;
+    box-shadow: 6px 15px 0px 10px rgba(6, 6, 6, .6);
+    -webkit-border-radius: 14px;
+}
+
+img.buscar {
+    float: left;
+    margin: 0% 0% 0% 11%;
+}
+
+div.conteiner {
+    width: 66%;
+    height: 936px;
+    margin: 0% 0% 0% 17%;
+}
+
+input {
+    width: 100%;
+}
+
+/*Imagenes*/
+
+/*Imagen de UTN*/
+img.logo {
+    float: left;
+    margin: 3% 0% 0% 13%;
+    width: 8%;
+}
+
+/*Imagen de Editar y Eliminar dentro del table*/
+img.opciones {
+    margin-left: 16%;
+    margin-top: 5%;
+}
+
+/*Imagen de agregar Carrera, Estudiante y Usuario*/
+img.agregar {
+    margin: 0% 0% 0% 160%;
+
+}
+
+img.imgTable {
+    width: 65%;
+}
+
+img.buscar {
+    float: left;
+    margin: 0% 0% 0% 158%;
+}
+
+/*Table*/
+table {
+    width: 144%;
+    border-spacing: 0px;
+    border-color: #000;
+    text-align: center;
+}
+
+/*El head o encabezado del table*/
+table thead {
+    font-family: "Arial Black", Gadget, sans-serif;
+
+}
+
+/*Tamaño del row del table*/
+table tr {
+    height: 40px;
+
+}
+
+strong {
+    color: black;
+}
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+C:\Users\Ronald\Documents\CSharp\HerenciaSimple\HerenciaSimple\bin\Debug\HerenciaSimple.exe.config
+C:\Users\Ronald\Documents\CSharp\HerenciaSimple\HerenciaSimple\bin\Debug\HerenciaSimple.exe
+C:\Users\Ronald\Documents\CSharp\HerenciaSimple\HerenciaSimple\bin\Debug\HerenciaSimple.pdb
+C:\Users\Ronald\Documents\CSharp\HerenciaSimple\HerenciaSimple\obj\Debug\HerenciaSimple.exe
+C:\Users\Ronald\Documents\CSharp\HerenciaSimple\HerenciaSimple\obj\Debug\HerenciaSimple.pdb

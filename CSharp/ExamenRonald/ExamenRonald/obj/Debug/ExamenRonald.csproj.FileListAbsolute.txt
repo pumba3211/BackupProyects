@@ -1,0 +1,9 @@
+C:\Users\Ronald\Documents\CSharp\ExamenRonald\ExamenRonald\bin\Debug\ExamenRonald.exe.config
+C:\Users\Ronald\Documents\CSharp\ExamenRonald\ExamenRonald\obj\Debug\ExamenRonald.Form1.resources
+C:\Users\Ronald\Documents\CSharp\ExamenRonald\ExamenRonald\obj\Debug\ExamenRonald.Properties.Resources.resources
+C:\Users\Ronald\Documents\CSharp\ExamenRonald\ExamenRonald\obj\Debug\ExamenRonald.csproj.GenerateResource.Cache
+C:\Users\ronal\Documents\Proyectos\CSharp\ExamenRonald\ExamenRonald\obj\Debug\ExamenRonald.csprojAssemblyReference.cache
+C:\Users\ronal\Documents\Proyectos\CSharp\ExamenRonald\ExamenRonald\obj\Debug\ExamenRonald.Form1.resources
+C:\Users\ronal\Documents\Proyectos\CSharp\ExamenRonald\ExamenRonald\obj\Debug\ExamenRonald.Properties.Resources.resources
+C:\Users\ronal\Documents\Proyectos\CSharp\ExamenRonald\ExamenRonald\obj\Debug\ExamenRonald.csproj.GenerateResource.cache
+C:\Users\ronal\Documents\Proyectos\CSharp\ExamenRonald\ExamenRonald\obj\Debug\ExamenRonald.csproj.CoreCompileInputs.cache

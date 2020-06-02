@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Login</title>
+    <!-- Attach our CSS -->
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Attach necessary scripts -->
+    <!-- <script type="text/javascript" src="jquery-1.4.4.min.js"></script> -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+    <script type="text/javascript" src="js/jquery.reveal.js"></script>
+    <script type="text/javascript" src="js/util.js"></script>
+    <script type="text/javascript" src="js/jquery.min"></script>
+</head>
+<body>
+<div id="myModal" class="reveal-modal">
+    <div class="conteiner">
+        <img src="imagenes/UTN.png">
+        <form action="login.php" method="post" id="formularioLogin">
+            <img src="imagenes/user.png" class="user">
+            <img src="imagenes/pass.png" class="password">
+            <div id="login">
+                <input type="texto" id="username" name="user" placeholder="Username" size="25"><br/><br/>
+                <input type="password" id="password" name="pass" placeholder="Password" size="25"><br/><br/>
+                <a href="javascript:login()" class="login"><img src="imagenes/login.png"></a>
+                <a href="buscar.php" class="buscar"><img src="imagenes/buscar.png"></a>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>

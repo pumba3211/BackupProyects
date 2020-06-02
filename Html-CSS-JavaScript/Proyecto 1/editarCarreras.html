@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Importamos nuestros CSS -->
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" type="text/css" href="css/carrera.css">
+
+    <!-- Importamos los scripts necesarios -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+    <script type="text/javascript" src="js/jquery.reveal.js"></script>
+    <script type="text/javascript" src="js/util.js"></script>
+    <script type="text/javascript" src="js/jquery.min"></script>
+    <meta charset=utf-8/>
+    <title>Editar Carrera</title>
+</head>
+<body>
+<div class="Contenido">
+    <div id="myModal" class="reveal-modal">
+        <label>Código</label><br/>
+        <input type="texto" value="ISW"><br/><br/>
+
+        <label>Nombre</label><br/>
+        <input type="texto" value="Ingeneria en Software"><br/><br/>
+
+        <label>Sede</label><br/>
+        <input type="texto" value="San Carlos"><br/><br/>
+
+        <a href="carreras.html" onclick="editarCarrera()"><input type="button" id="editar" name="editar" value="Editar"
+                                                                 target='_blank'></a>
+
+        <a href="carreras.html"><input type="button" id="cancelar" name="cancelar" value="Cancelar" target='_blank'></a>
+    </div>
+</div>
+</body>
+</html>

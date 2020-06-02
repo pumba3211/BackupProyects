@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5c925d1f-8e79-48c0-9f82-062c4abf9d72" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55919/WebServices/Servicies/GrupoServicio.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="GrupoServicio.disco" MetadataType="Disco" ID="268074c6-9f7b-44c2-a6b2-279cdd8ca608" SourceId="1" SourceUrl="http://localhost:55919/WebServices/Servicies/GrupoServicio.svc?disco" />
+    <MetadataFile FileName="GrupoServicio.wsdl" MetadataType="Wsdl" ID="5592973c-28fc-4cf0-a110-aa6af10a81bb" SourceId="1" SourceUrl="http://localhost:55919/WebServices/Servicies/GrupoServicio.svc?wsdl" />
+    <MetadataFile FileName="GrupoServicio.xsd" MetadataType="Schema" ID="ab5170ae-ad17-49e2-9416-0a1b9806fa1b" SourceId="1" SourceUrl="http://localhost:55919/WebServices/Servicies/GrupoServicio.svc?xsd=xsd2" />
+    <MetadataFile FileName="GrupoServicio1.xsd" MetadataType="Schema" ID="8db2a9f9-b5af-41a5-ad34-f0cca18bd469" SourceId="1" SourceUrl="http://localhost:55919/WebServices/Servicies/GrupoServicio.svc?xsd=xsd1" />
+    <MetadataFile FileName="GrupoServicio2.xsd" MetadataType="Schema" ID="2840f1cd-7540-4c74-b931-9013326c0381" SourceId="1" SourceUrl="http://localhost:55919/WebServices/Servicies/GrupoServicio.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

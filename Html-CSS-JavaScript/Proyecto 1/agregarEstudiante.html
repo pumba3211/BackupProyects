@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Importamos nuestros CSS -->
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" type="text/css" href="css/estudiante.css">
+
+    <!-- Importamos los scripts necesarios -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+    <script type="text/javascript" src="js/jquery.reveal.js"></script>
+    <script type="text/javascript" src="js/util.js"></script>
+    <script type="text/javascript" src="js/jquery.min"></script>
+    <meta charset=utf-8/>
+    <title>Agregar Estudiante</title>
+</head>
+<body>
+<div class="conteiner">
+    <div id="myModal" class="reveal-modal" style="width:31%; height:59%;">
+
+        <img class="logo" src="imagenes/UTN.png">
+        <p id="perfil">Perfiles</p>
+
+        <form action="agregarEstudiante.php" method="post" id="formularioAgregarEstudiante">
+            <div class="Position1">
+                <label for="cedula" class="Position1">Cédula</label>
+                <input type="texto" value="" placeholder="Cédula" name="cedula" id="cedula" class="Position1"><br/><br/>
+
+                <label for="nombre" class="Position1">Nombre</label>
+                <input type="texto" value="" placeholder="Nombre" name="nombre" id="nombre" class="Position1"><br/><br/>
+
+                <label for="apellidos" class="Position1">Apellidos</label>
+                <input type="texto" value="" placeholder="Apellidos" name="apellidos" id="apellidos"
+                       class="Position1"><br/><br/>
+
+                <label for="telefono" class="Position1">Teléfono</label>
+                <input type="texto" value="" placeholder="Teléfono" name="telefono" id="telefono"
+                       class="Position1"><br/><br/>
+
+                <label for="correo" class="Position1">Correo</label>
+                <input type="email" value="" placeholder="Correo" name="correo" id="correo" class="Position1"><br/><br/>
+
+                <label for="direccion" class="Position1">Dirección</label>
+                <input type="texto" value="" placeholder="Dirección" name="direccion" id="direccion"
+                       class="Position1"><br/><br/>
+
+                <label for="carrera" class="Position1">Carrera</label>
+                <input type="texto" value="" placeholder="Carrera" name="carrera" id="carrera"
+                       class="Position1"><br/><br/>
+
+                <label for="cedula" class="Position1">Ingles</label>
+                <input type="texto" value="" placeholder="ingles" name="ingles" id="cedula" class="Position1"><br/><br/>
+
+                <label for="skill" class="Position1">Skill</label>
+                <input type="texto" value="" placeholder="Skill" name="skill" id="skill" class="Position1"><br/><br/>
+            </div>
+            <div class="Position2">
+                <label for="proyecto" class="Position2">Proyecto</label>
+                <input type="texto" value="" placeholder="Proyecto" name="proyecto" id="proyecto"
+                       class="Position2"><br/><br/>
+
+                <label for="curso" class="Position2">Curso</label>
+                <input type="texto" value="" placeholder="Curso" name="curso" id="curso" class="Position2"><br/><br/>
+
+                <label for="duracion" class="Position2">Duracion</label>
+                <input type="texto" value="" placeholder="Duracion" name="duracion" id="duracion"
+                       class="Position2"><br/><br/>
+
+                <label for="tecnologia" class="Position2">Tecnologia</label>
+                <input type="texto" value="" placeholder="Tecnologia" name="tecnologia" id="tecnologia"
+                       class="Position2"><br/><br/>
+
+                <label for="descripcion" class="Position2">Descripcion</label>
+                <input type="texto" value="" placeholder="Descripcion" name="descripcion" id="descripcion"
+                       class="Position2"><br/><br/>
+
+                <label for="fecha" class="Position2">Fecha</label>
+                <input type="texto" value="" placeholder="Fecha" name="fecha" id="fecha" class="Position2"><br/><br/>
+
+                <label for="calificacion" class="Position2">Calificacion</label>
+                <input type="texto" value="" placeholder="Calificacion" name="calificacion" id="calificacion"
+                       class="Position2"><br/><br/>
+
+                <label for="comentario" class="Position2">Comentario</label>
+                <input type="texto" value="" placeholder="Comentario" name="comentario" id="comentario"
+                       class="Position2"><br/><br/>
+
+                <label for="foto" class="Position2">Foto</label>
+                <input type="file" name="foto" value="Examinar.." id="foto" class="Position2">
+            </div>
+
+            <a href=""><input type="submit" id="agregar" value="Agregar"></a>
+
+            <a href=""><input type="submit" id="agregarNuevo" name="agregarNuevo" value="Agregar y Nuevo"></a>
+
+            <a href="estudiante.php"><input type="button" id="cancelar" value="Cancelar"</a>
+
+        </form>
+    </div>
+</div>
+</body>
+</html>

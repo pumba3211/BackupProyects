@@ -1,0 +1,138 @@
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\SuperZapatosP.dll.config
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\SuperZapatosP.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\SuperZapatosP.pdb
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\Antlr3.Runtime.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\EntityFramework.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\EntityFramework.SqlServer.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\Microsoft.Web.Infrastructure.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\Newtonsoft.Json.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\System.Net.Http.Formatting.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\System.Web.Helpers.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\System.Web.Http.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\System.Web.Http.WebHost.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\System.Web.Mvc.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\System.Web.Optimization.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\System.Web.Razor.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\System.Web.WebPages.Deployment.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\System.Web.WebPages.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\System.Web.WebPages.Razor.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\WebGrease.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\EntityFramework.xml
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\EntityFramework.SqlServer.xml
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\Newtonsoft.Json.xml
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\System.Net.Http.Formatting.xml
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\System.Web.Helpers.xml
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\System.Web.Http.xml
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\System.Web.Http.WebHost.xml
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\System.Web.Mvc.xml
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\System.Web.Optimization.xml
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\System.Web.Razor.xml
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\System.Web.WebPages.xml
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\System.Web.WebPages.Deployment.xml
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\System.Web.WebPages.Razor.xml
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\Antlr3.Runtime.pdb
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\es\System.Net.Http.Formatting.resources.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\es\System.Web.Helpers.resources.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\es\System.Web.Http.resources.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\es\System.Web.Http.WebHost.resources.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\es\System.Web.Mvc.resources.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\es\System.Web.Optimization.resources.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\es\System.Web.Razor.resources.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\es\System.Web.WebPages.resources.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\es\System.Web.WebPages.Deployment.resources.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\bin\es\System.Web.WebPages.Razor.resources.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\obj\Debug\SuperZapatosP.dll
+c:\users\ronald\documents\visual studio 2013\Projects\SuperZapatosP\SuperZapatosP\obj\Debug\SuperZapatosP.pdb
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\SuperZapatosP.dll.config
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\SuperZapatosP.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\SuperZapatosP.pdb
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\Antlr3.Runtime.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\EntityFramework.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\EntityFramework.SqlServer.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\Newtonsoft.Json.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\System.Net.Http.Formatting.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\System.Web.Helpers.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\System.Web.Http.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\System.Web.Http.WebHost.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\System.Web.Mvc.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\System.Web.Optimization.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\System.Web.Razor.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\System.Web.WebPages.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\WebGrease.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\EntityFramework.xml
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\EntityFramework.SqlServer.xml
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\Newtonsoft.Json.xml
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\System.Net.Http.Formatting.xml
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\System.Web.Helpers.xml
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\System.Web.Http.xml
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\System.Web.Http.WebHost.xml
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\System.Web.Mvc.xml
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\System.Web.Optimization.xml
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\System.Web.Razor.xml
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\System.Web.WebPages.xml
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\Antlr3.Runtime.pdb
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\es\System.Web.Http.resources.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\es\System.Web.Razor.resources.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\obj\Debug\SuperZapatosP.dll
+C:\Users\Ronald\Documents\PruebaProgramada\SuperZapatosP\obj\Debug\SuperZapatosP.pdb
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\SuperZapatosP.dll.config
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\SuperZapatosP.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\SuperZapatosP.pdb
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\Antlr3.Runtime.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\EntityFramework.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\EntityFramework.SqlServer.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\Microsoft.Web.Infrastructure.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\Newtonsoft.Json.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\System.Net.Http.Formatting.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\System.Web.Helpers.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\System.Web.Http.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\System.Web.Http.WebHost.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\System.Web.Mvc.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\System.Web.Optimization.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\System.Web.Razor.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\System.Web.WebPages.Deployment.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\System.Web.WebPages.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\System.Web.WebPages.Razor.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\WebGrease.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\EntityFramework.xml
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\EntityFramework.SqlServer.xml
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\Newtonsoft.Json.xml
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\System.Net.Http.Formatting.xml
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\System.Web.Helpers.xml
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\System.Web.Http.xml
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\System.Web.Http.WebHost.xml
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\System.Web.Mvc.xml
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\System.Web.Optimization.xml
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\System.Web.Razor.xml
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\System.Web.WebPages.xml
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\System.Web.WebPages.Deployment.xml
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\System.Web.WebPages.Razor.xml
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\Antlr3.Runtime.pdb
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\es\System.Net.Http.Formatting.resources.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\es\System.Web.Helpers.resources.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\es\System.Web.Http.resources.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\es\System.Web.Http.WebHost.resources.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\es\System.Web.Mvc.resources.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\es\System.Web.Optimization.resources.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\es\System.Web.Razor.resources.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\es\System.Web.WebPages.resources.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\obj\Debug\SuperZapatosP.csprojAssemblyReference.cache
+D:\Proyectos\SuperZapatosP\SuperZapatosP\obj\Debug\SuperZapatosP.csproj.CoreCompileInputs.cache
+D:\Proyectos\SuperZapatosP\SuperZapatosP\obj\Debug\SuperZapatosP.csproj.CopyComplete
+D:\Proyectos\SuperZapatosP\SuperZapatosP\obj\Debug\SuperZapatosP.dll
+D:\Proyectos\SuperZapatosP\SuperZapatosP\obj\Debug\SuperZapatosP.pdb

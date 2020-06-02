@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WsProyecto", "WsRecursosHumanos\WsProyecto.csproj", "{F96B91DC-02A3-4926-99C1-FB51C852C165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto", "RecursosHumanos\Proyecto.csproj", "{7BED4A80-102B-4D94-8772-5F81ABBEA89E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F96B91DC-02A3-4926-99C1-FB51C852C165} = {F96B91DC-02A3-4926-99C1-FB51C852C165}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F96B91DC-02A3-4926-99C1-FB51C852C165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96B91DC-02A3-4926-99C1-FB51C852C165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96B91DC-02A3-4926-99C1-FB51C852C165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96B91DC-02A3-4926-99C1-FB51C852C165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BED4A80-102B-4D94-8772-5F81ABBEA89E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BED4A80-102B-4D94-8772-5F81ABBEA89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BED4A80-102B-4D94-8772-5F81ABBEA89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BED4A80-102B-4D94-8772-5F81ABBEA89E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

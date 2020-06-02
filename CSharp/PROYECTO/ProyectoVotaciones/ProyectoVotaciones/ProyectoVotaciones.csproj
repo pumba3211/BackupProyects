@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{81E3F831-541F-4AA3-BCD7-487D90FA9D0B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProyectoVotaciones</RootNamespace>
+    <AssemblyName>ProyectoVotaciones</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ionic.Zip.1.9.1.8\lib\Ionic.Zip.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CapaLogica\Class1.cs" />
+    <Compile Include="CapaLogica\MetodosCandidatos.cs" />
+    <Compile Include="CapaLogica\MetodosNulosBlancos.cs" />
+    <Compile Include="CapaLogica\MetodosPeriodos.cs" />
+    <Compile Include="CapaLogica\MetodosVotantes.cs" />
+    <Compile Include="CapaVista\frmAgregarPeriodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaVista\frmAgregarPeriodo.Designer.cs">
+      <DependentUpon>frmAgregarPeriodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaVista\frmEliminarPeriodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaVista\frmEliminarPeriodo.Designer.cs">
+      <DependentUpon>frmEliminarPeriodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaVista\frmModificarPeriodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaVista\frmModificarPeriodo.Designer.cs">
+      <DependentUpon>frmModificarPeriodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaVista\ModificarBandera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaVista\ModificarBandera.Designer.cs">
+      <DependentUpon>ModificarBandera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaVista\ModificarFoto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaVista\ModificarFoto.Designer.cs">
+      <DependentUpon>ModificarFoto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="datos.cs">
+      <DependentUpon>datos.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Estructura\Candidato.cs" />
+    <Compile Include="datos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>datos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CapaVista\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaVista\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaVista\frmAgregarCandidato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaVista\frmAgregarCandidato.Designer.cs">
+      <DependentUpon>frmAgregarCandidato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaVista\frmAgregarVotante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaVista\frmAgregarVotante.Designer.cs">
+      <DependentUpon>frmAgregarVotante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaVista\frmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaVista\frmDashboard.Designer.cs">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaVista\frmEliminarCandidato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaVista\frmEliminarCandidato.Designer.cs">
+      <DependentUpon>frmEliminarCandidato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaVista\frmEliminarVotante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaVista\frmEliminarVotante.Designer.cs">
+      <DependentUpon>frmEliminarVotante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaVista\frmEmitirVoto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaVista\frmEmitirVoto.Designer.cs">
+      <DependentUpon>frmEmitirVoto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaVista\frmModificarCandidato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaVista\frmModificarCandidato.Designer.cs">
+      <DependentUpon>frmModificarCandidato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaVista\frmModificarVotante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaVista\frmModificarVotante.Designer.cs">
+      <DependentUpon>frmModificarVotante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaVista\frmResultados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaVista\frmResultados.Designer.cs">
+      <DependentUpon>frmResultados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estructura\Periodo.cs" />
+    <Compile Include="ManejoDeArchivos\Directorios.cs" />
+    <Compile Include="ManejoDeArchivos\IintefazDeArchivos.cs" />
+    <Compile Include="Estructura\NulosBlancos.cs" />
+    <Compile Include="ManejoDeArchivos\UrlArchivos.cs" />
+    <Compile Include="ManejoDeArchivos\UsoArchivos.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Estructura\Votante.cs" />
+    <EmbeddedResource Include="CapaVista\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaVista\frmAgregarCandidato.resx">
+      <DependentUpon>frmAgregarCandidato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaVista\frmAgregarPeriodo.resx">
+      <DependentUpon>frmAgregarPeriodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaVista\frmAgregarVotante.resx">
+      <DependentUpon>frmAgregarVotante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaVista\frmDashboard.resx">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaVista\frmEliminarCandidato.resx">
+      <DependentUpon>frmEliminarCandidato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaVista\frmEliminarPeriodo.resx">
+      <DependentUpon>frmEliminarPeriodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaVista\frmEliminarVotante.resx">
+      <DependentUpon>frmEliminarVotante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaVista\frmEmitirVoto.resx">
+      <DependentUpon>frmEmitirVoto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaVista\frmModificarCandidato.resx">
+      <DependentUpon>frmModificarCandidato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaVista\frmModificarPeriodo.resx">
+      <DependentUpon>frmModificarPeriodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaVista\frmModificarVotante.resx">
+      <DependentUpon>frmModificarVotante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaVista\frmResultados.resx">
+      <DependentUpon>frmResultados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaVista\ModificarBandera.resx">
+      <DependentUpon>ModificarBandera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaVista\ModificarFoto.resx">
+      <DependentUpon>ModificarFoto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <None Include="datos.xsc">
+      <DependentUpon>datos.xsd</DependentUpon>
+    </None>
+    <None Include="datos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>datos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="datos.xss">
+      <DependentUpon>datos.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Elivotante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Agregar.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salir.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ingresar.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eliminar.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modificar.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mod.foto.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mod.foto1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m.bandera.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emitiri.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,20 @@
+c:\users\t\documents\visual studio 2012\Projects\WebServiceProyectoUniversidad\WebServiceProyectoUniversidad\bin\WebServiceProyectoUniversidad.dll
+c:\users\t\documents\visual studio 2012\Projects\WebServiceProyectoUniversidad\WebServiceProyectoUniversidad\bin\WebServiceProyectoUniversidad.pdb
+c:\users\t\documents\visual studio 2012\Projects\WebServiceProyectoUniversidad\WebServiceProyectoUniversidad\obj\Debug\WebServiceProyectoUniversidad.csprojResolveAssemblyReference.cache
+c:\users\t\documents\visual studio 2012\Projects\WebServiceProyectoUniversidad\WebServiceProyectoUniversidad\obj\Debug\WebServiceProyectoUniversidad.dll
+c:\users\t\documents\visual studio 2012\Projects\WebServiceProyectoUniversidad\WebServiceProyectoUniversidad\obj\Debug\WebServiceProyectoUniversidad.pdb
+C:\Users\t\Documents\ProyectosC#\WebServiceProyectoUniversidad\WebServiceProyectoUniversidad\obj\Debug\WebServiceProyectoUniversidad.csprojResolveAssemblyReference.cache
+C:\Users\t\Documents\ProyectosC#\WebServiceProyectoUniversidad\WebServiceProyectoUniversidad\obj\Debug\WebServiceProyectoUniversidad.dll
+C:\Users\t\Documents\ProyectosC#\WebServiceProyectoUniversidad\WebServiceProyectoUniversidad\obj\Debug\WebServiceProyectoUniversidad.pdb
+C:\Users\t\Documents\ProyectosC#\WebServiceProyectoUniversidad\WebServiceProyectoUniversidad\bin\WebServiceProyectoUniversidad.dll
+C:\Users\t\Documents\ProyectosC#\WebServiceProyectoUniversidad\WebServiceProyectoUniversidad\bin\WebServiceProyectoUniversidad.pdb
+C:\Users\t\Documents\ProyectosC#\WebServiceProyectoUniversidad\WebServiceProyectoUniversidad\bin\Npgsql.dll
+C:\Users\t\Documents\ProyectosC#\WebServiceProyectoUniversidad\WebServiceProyectoUniversidad\bin\Mono.Security.dll
+C:\Users\t\Documents\ProyectosC#\WebServiceProyectoUniversidad\WebServiceProyectoUniversidad\bin\Npgsql.xml
+C:\Users\t\Documents\ProyectosC#\WebServiceProyectoUniversidad\WebServiceProyectoUniversidad\bin\de\Npgsql.resources.dll
+C:\Users\t\Documents\ProyectosC#\WebServiceProyectoUniversidad\WebServiceProyectoUniversidad\bin\es\Npgsql.resources.dll
+C:\Users\t\Documents\ProyectosC#\WebServiceProyectoUniversidad\WebServiceProyectoUniversidad\bin\fi\Npgsql.resources.dll
+C:\Users\t\Documents\ProyectosC#\WebServiceProyectoUniversidad\WebServiceProyectoUniversidad\bin\fr\Npgsql.resources.dll
+C:\Users\t\Documents\ProyectosC#\WebServiceProyectoUniversidad\WebServiceProyectoUniversidad\bin\ja\Npgsql.resources.dll
+C:\Users\t\Documents\ProyectosC#\WebServiceProyectoUniversidad\WebServiceProyectoUniversidad\bin\zh-CN\Npgsql.resources.dll
+C:\Users\t\Documents\ProyectosC#\WebServiceProyectoUniversidad\WebServiceProyectoUniversidad\bin\Npgsql.pdb

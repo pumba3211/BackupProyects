@@ -1,0 +1,87 @@
+<!Doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="js/estudiantes.js"></script>
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <title>Utn Perfiles</title>
+</head>
+<body>
+<div class="row" style="background-color: #0099CC">
+    <div class="col-md-offset-10">
+        <p id="userOn" style="color:white"><a href="login.html" style="color:white">Salir</a></p>
+
+    </div>
+</div>
+<br/>
+<div class="row">
+    <img src="Recursos/logoUTN.png " class="col-md-2"/>
+</div>
+<h1>Utn Perfiles</h1>
+<div class="row">
+    <button class="btn btn-primary col-md-3" onclick="location.href = 'AdminDashboard.html'">Dashboard</button>
+    <button class="btn btn-primary col-md-3" onclick="location.href = 'AdminDashboardCarreras.html'">Carreras</button>
+    <button class="btn btn-success col-md-3" onclick="location.href = 'AdminDashboardEstudiantes.html'">Estudiantes
+    </button>
+    <button class="btn btn-primary col-md-3" onclick="location.href = 'AdminDashboardUsuarios.html'">Usuarios</button>
+</div>
+<br/>
+<div class="row">
+    <button class="btn btn-primary col-md-2" onclick="location.href = 'AdminDashboardEstudiantes.html'"> Atras</button>
+</div>
+<div class="row">
+    <h2 class="text-center">Editar Estudiantes</h2>
+</div>
+<div class="row">
+    <h3 class="col-md-offset-5">Cedula o Carnet</h3>
+</div>
+<div class="form-group">
+    <input type="text" class="form-control col-md-offset-5" placeholder="Cedula o Carnet" id="cedulaocarnet"
+           readonly="readonly">
+</div>
+
+<div class="row">
+    <h3 class="col-md-offset-5">Nombre</h3>
+</div>
+<div class="form-group">
+    <input type="text" class="form-control col-md-offset-5" placeholder="Nombre" id="nombre">
+</div>
+<div class="row">
+    <h3 class="col-md-offset-5">Apellidos</h3>
+</div>
+<div class="form-group">
+    <input type="text" class="form-control col-md-offset-5" placeholder="Apellidos" id="apellidos">
+</div>
+
+<div class="row">
+    <h3 class="col-md-offset-5">Carrera</h3>
+</div>
+<div class="form-group">
+    <select class="form-control col-md-offset-5" id="carreras">
+
+    </select>
+</div>
+
+<div class="row">
+    <h3 class="col-md-offset-5">Nivel de ingles</h3>
+</div>
+<div class="form-group">
+    <select class="form-control col-md-offset-5" id="niveldeingles">
+        <option value="A1">A1</option>
+        <option value="A2">A2</option>
+        <option value="B1">B1</option>
+        <option value="B2">B2</option>
+        <option value="C1">C1</option>
+    </select>
+</div>
+<button type="submit" class="btn btn-primary col-md-offset-6" id="editarestudiante"> Editar Estudiante</button>
+
+</body>
+</html>
+<script type="text/javascript">
+    cargarcarreras()
+    usaurioOn()
+    cargarestudianteeditar()
+    prepareBinding()
+</script>

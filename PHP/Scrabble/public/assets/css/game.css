@@ -1,0 +1,128 @@
+body{
+  background-color: #E0FFA3;
+}
+#game tr td{
+  border: 1px solid black;
+  text-align: center; 
+  border-collapse: collapse;
+}
+
+#game{
+  height: 600px;
+}
+
+.letter 
+{
+  width: 30px;
+  height: 38px;
+  background: #FFFF66;
+}
+
+#playerletters{
+ border-style: solid;
+ margin-top: 3%;
+ background-image: url("/assets/img/tablero.jpg");
+ width: 87%;
+ padding: 0px;
+ border: 1px solid black;
+ height: 42px;
+}
+
+td.letter{
+ text-align: center;
+ padding: 0px;
+ border-style: solid;
+ border: 1px solid black;
+
+}
+.center{
+  text-align: center;
+}
+
+.bordered{
+  padding: 0px;
+}
+
+.letter.ui-draggable-dragging { background: #FFFF00; }
+
+.red-background{
+  background-color: darkred;
+}
+.pink-background{
+  background-color: pink;
+}
+.light_blue-background{
+  background-color: lightskyblue;
+}
+.blue-background{
+  background-color: darkblue;
+}
+.green-background{
+  background-color: #00CC00;
+}
+
+.buttons{
+  margin-top: 18%;
+  width: 100%;
+}
+.showletter{
+  padding: 0px;
+}
+.playing{
+  background-color: #FFFF66;
+}
+
+.main_btn{
+  margin:5% 0% 0% 20%;
+}
+
+#title{
+  background-color: #ff5722;
+}
+.data_letter{
+  background-color: #FFFF66;
+}
+
+#new_game{
+  background-color: #039be5;
+  margin-top: 8%;
+}
+
+#players{
+  background-color: #40c4ff;
+}
+
+.left{
+  background-color: #b3e5fc;
+}
+
+#right{
+  margin-left: 8%;
+  background-color: #ff8a65 ;
+  padding-bottom: 2%;
+}
+
+#join_players{
+  margin-left: 41.5%;
+  width: 30%;
+  background-color: #ff8a65 ;
+  position: absolute;
+  /*margin-top: -60px;*/
+}
+
+#start_join_game{
+  margin-bottom: 5%;
+}
+
+
+#logout{
+  position: absolute;
+  margin-left: 90%;
+  margin-top: 1%;
+}
+
+#logout_show{
+  position: absolute;
+  margin-left: 90%;
+  margin-top: 49%;
+}

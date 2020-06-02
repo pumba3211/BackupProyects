@@ -1,0 +1,48 @@
+<!Doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="js/carreras.js"></script>
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <title>Utn Perfiles</title>
+</head>
+<body>
+<div class="row" style="background-color: #0099CC">
+    <div class="col-md-offset-10">
+        <p id="userOn" style="color:white"><a href="login.html" style="color:white">Salir</a></p>
+
+    </div>
+</div>
+<br/>
+<div class="row">
+    <img src="Recursos/logoUTN.png " class="col-md-2"/>
+</div>
+<h1>Utn Perfiles</h1>
+<div class="row">
+    <button class="btn btn-primary col-md-3" onclick="location.href = 'AdminDashboard.html'">Dashboard</button>
+    <button class="btn btn-success col-md-3" onclick="location.href = 'AdminDashboardCarreras.html'">Carreras</button>
+    <button class="btn btn-primary col-md-3" onclick="location.href = 'AdminDashboardEstudiantes.html'">Estudiantes
+    </button>
+    <button class="btn btn-primary col-md-3" onclick="location.href = 'AdminDashboardUsuarios.html'">Usuarios</button>
+</div>
+<br/>
+<h2>Carrera Editada</h2>
+<div class="row">
+    <button class="btn btn-primary col-md-2" onclick="location.href = 'crearcarrera.html'">Crear Carrera</button>
+</div>
+<br/>
+<div class="table-responsive">
+    <table id="tabla" class="table">
+
+    </table>
+</div>
+<br/>
+</body>
+
+</html>
+<script type="text/javascript">cargarcarreras()</script>
+<script type="text/javascript">
+    usaurioOn()
+    prepareBinding()
+</script>

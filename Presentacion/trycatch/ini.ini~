@@ -1,0 +1,5 @@
+Password	=12345
+Username	=usrUTN
+OLEDatasource	=localhost
+OLELocation	=dbProyecto
+Port 		=5432

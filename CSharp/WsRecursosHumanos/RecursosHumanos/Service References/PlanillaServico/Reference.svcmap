@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="65cc601d-7419-4e66-9595-41a674446e66" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:41294/Planilla.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Planilla.xsd" MetadataType="Schema" ID="2e7c3da2-f6fb-4448-8d50-e68b06c884b3" SourceId="1" SourceUrl="http://localhost:41294/Planilla.svc?xsd=xsd2" />
+    <MetadataFile FileName="Planilla1.xsd" MetadataType="Schema" ID="e5ca80ff-9b0d-4771-a119-25663f73c359" SourceId="1" SourceUrl="http://localhost:41294/Planilla.svc?xsd=xsd1" />
+    <MetadataFile FileName="Planilla2.xsd" MetadataType="Schema" ID="8f7ea9ee-027c-43eb-84df-4e42993e5301" SourceId="1" SourceUrl="http://localhost:41294/Planilla.svc?xsd=xsd0" />
+    <MetadataFile FileName="Planilla.wsdl" MetadataType="Wsdl" ID="14097edb-4acd-4eab-abb6-c168cd9d5bcb" SourceId="1" SourceUrl="http://localhost:41294/Planilla.svc?wsdl" />
+    <MetadataFile FileName="Planilla.disco" MetadataType="Disco" ID="17edcd60-2025-4419-a21e-8755bad96419" SourceId="1" SourceUrl="http://localhost:41294/Planilla.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

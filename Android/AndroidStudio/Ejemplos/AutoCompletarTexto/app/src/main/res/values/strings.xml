@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AutoCompletarTexto</string>
+    <string-array name="valsAutoComplete">
+        <item>Hola</item>
+        <item>Hello</item>
+        <item>Hey</item>
+        <item>Buenos días</item>
+        <item>Buenas tardes</item>
+        <item>Buenas noches</item>i
+    </string-array>
+</resources>

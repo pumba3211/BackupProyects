@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en-GB">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css"/>
+    <title></title>
+</head>
+<body onload="javascript:fnButtons();">
+<h1>Bienvenido al Servicio</h1>
+<h3>Descripcion</h3>
+<p>Mediante este servicio puede consultar el cambio de moneda de dolares a colones</p>
+<br/>
+<div>
+    <div>
+        <label>Fecha inicial</label>
+        <input type="date" name="tcFechaInicio" id="tcFechaInicio"/>
+    </div>
+    <br/>
+    <div>
+        <label>Fecha Final</label>
+        <input type="date" name="tcFechaFinal" id="tcFechaFinal"/>
+
+    </div>
+    <br/>
+    <div>
+        <button type="button" id="consultar">Consultar</button>
+        <button type="button" id="save">sasas</button>
+    </div>
+</div>
+<div>
+    <table class="table">
+        <h2>Tipo de Cambio</h2>
+        <tr>
+            <td><strong>Fecha</strong></td>
+            <td><strong>Compra</strong></td>
+            <td><strong>Venta</strong></td>
+        </tr>
+    </table>
+</div>
+</body>
+<script src="JS/jquery-2.1.4.js"></script>
+<script src="JS/index.js">
+    fnButtons();
+</script>
+</html>
+

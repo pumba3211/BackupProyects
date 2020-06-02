@@ -1,0 +1,66 @@
+﻿@model SuperZapatosApi.Models.Article
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Article</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Store
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Store.name)
+        </dd>
+
+        <dt>
+           Name
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.name)
+        </dd>
+
+        <dt>
+           Description
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.description)
+        </dd>
+
+        <dt>
+            Price
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.price)
+        </dd>
+
+        <dt>
+           Total Self
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.total_in_shelf)
+        </dd>
+
+        <dt>
+            Total Vault
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.total_in_vault)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", "List", new { id = Model.ArticleID }, new { @class = "btn btn-default" }) |
+    @Html.ActionLink("Back to List", "Index", "List", new { @class = "btn btn-default" })
+</p>

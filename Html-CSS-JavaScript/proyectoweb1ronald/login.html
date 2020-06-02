@@ -1,0 +1,35 @@
+<!Doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <title>Utn Perfiles</title>
+</head>
+<body>
+<img src="Recursos/logoUTN.png" class="col-md-offset-4"/>
+<h1 class="col-md-offset-4">Utn Perfiles</h1>
+<br/>
+<div class="container">
+    <div class="row">
+        <h2 class="col-md-12 text-center h2">Login</h2>
+        <form class="form-inline col-md-offset-4">
+            <div class="form-group">
+                <input type="text" class="form-control" id="username" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" id="password" placeholder="Password">
+            </div>
+
+        </form>
+    </div>
+    <br/>
+    <button type="submit" class="btn btn-primary col-md-offset-5" id="loguearse"> Loguearse</button>
+    <br/>
+    <p id="mensaje"></p>
+    <script type="text/javascript">
+        prepareBinding();
+    </script>
+</body>
+</html>

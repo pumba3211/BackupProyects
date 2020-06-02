@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/estudiante.css">
+    <link rel="stylesheet" type="text/css" href="css/tabmenu.css">
+    <script type="text/javascript" src="css/util.js"></script>
+    <meta charset=utf-8/>
+    <title>Editar Estudiante</title>
+</head>
+<body>
+<div id="salir">
+    <a id="salir" href="index.html"><img src="imagenes/exitHover.png"></a>
+    <p id="salir"> Hola Admin</p>
+</div>
+<div id="perfil">
+    <img class="logo" src="imagenes/UTN.png">
+</div>
+<p id="perfil">Perfiles</p>
+<a id="dashboard" href="admin.html">Dashboard</a>
+<p id="dashboard"><strong>></strong></p>
+<p id="ubicado">Editar Estudiante</p>
+
+<div class="Contenido">
+    <label>Cédula</label><br/>
+    <input type="texto" value="207220239"><br/><br/>
+
+    <label>Nombre</label><br/>
+    <input type="texto" value="Jason"><br/><br/>
+
+    <label>Apellidos</label><br/>
+    <input type="texto" value="Gamboa Solano"><br/><br/>
+
+    <label>Teléfono</label><br/>
+    <input type="texto" value="87334413"><br/><br/>
+
+    <label>Correo</label><br/>
+    <input type="email" value="jgs14@hotmail.com"><br/><br/>
+
+    <label>Dirección</label><br/>
+    <input type="texto" value="Urbanización la Leyla"><br/><br/>
+
+    <a href="estudiantes.html" onclick="editarEstudiante()"><input type="button" id="editar" name="editar"
+                                                                   value="Editar" target='_blank'></a>
+
+    <a href="estudiantes.html"><input type="button" id="cancelar" name="cancelar" value="Cancelar" target='_blank'></a>
+</div>
+</body>
+</html>

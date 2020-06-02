@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/tabmenu.css">
+    <script type="text/javascript" src="css/util.js"></script>
+    <meta charset=utf-8/>
+    <title>Estudiantes</title>
+</head>
+<body>
+<a id="salir" href="index.html"><img src="imagenes/exitHover.png"></a>
+<p id="salir"> Hola Admin</p>
+
+
+<img class="logo" src="imagenes/UTN.png">
+
+<p id="perfil">Perfiles</p>
+<a id="dashboard" href="admin.html">Dashboard</a>
+<p id="dashboard"><strong>></strong></p>
+<p id="ubicado">Estudiantes</p>
+<div id="navbar">
+    <div id="holder">
+        <ul>
+            <li><a href="admin.html">Dashboard</a></li>
+            <li><a href="carreras.html">Carreras</a></li>
+            <li><a href="estudiantes.html" id="onlink">Estudiantes</a></li>
+            <li><a href="usuarios.html">Usuarios</a></li>
+        </ul>
+
+    </div><!--end holder div-->
+</div><!--end navbar div-->
+
+<div class="tabContent">
+    <p>Listado de Carreras</p>
+    <hr/>
+
+    <a href="agregarEstudiante.html"><img class="agregar" src="imagenes/agregar.png"/></a>
+    <table border="1px">
+        <thead>
+        <tr>
+            <td>Cedula</td>
+            <td>Nombre</td>
+            <td>Apellidos</td>
+            <td>Teléfono</td>
+            <td>Correo</td>
+            <td>Direccion</td>
+            <td>Opciones</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>207220239</td>
+            <td><a href="" class="nombre">Jason</a></td>
+            <td>Gamboa Solano</td>
+            <td>87334413</td>
+            <td>jgs14@hotmail.com</td>
+            <td>Urbanizacion la Leyla</td>
+            <td><a href="editarEstudiante.html"><img src="imagenes/edit.png"/></a>
+                <a href="" onclick="eliminarEstudiante()"><img class="opciones" src="imagenes/delete.png"/></a></td>
+        </tr>
+        <tr>
+            <td>207220291</td>
+            <td><a href="" class="nombre">Olger</a></td>
+            <td>Perez Villalobos</td>
+            <td>87924053</td>
+            <td>olger0920@gmail.com</td>
+            <td>Barrio los Ángeles</td>
+            <td><a href="editarEstudiante.html"><img src="imagenes/edit.png"/></a>
+                <a href="" onclick="eliminarEstudiante()"><img class="opciones" src="imagenes/delete.png"/></a></td>
+        </tr>
+        <tr>
+            <td>203670329</td>
+            <td><a href="" class="nombre">Sonia</a></td>
+            <td>Solano Rodriguez</td>
+            <td>83479207</td>
+            <td>soniasolano@outlook.es</td>
+            <td>Urbanizacion la Leyla</td>
+            <td><a href="editarEstudiante.html"><img src="imagenes/edit.png"/></a>
+                <a href="" onclick="eliminarEstudiante()"><img class="opciones" src="imagenes/delete.png"/></a></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

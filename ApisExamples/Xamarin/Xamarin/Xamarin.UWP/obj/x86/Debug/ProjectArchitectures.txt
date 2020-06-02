@@ -1,0 +1,1 @@
+C:\Users\ronal\Documents\Proyectos\ApisExamples\Xamarin\Xamarin\Xamarin.UWP\Xamarin.UWP.csproj;x86

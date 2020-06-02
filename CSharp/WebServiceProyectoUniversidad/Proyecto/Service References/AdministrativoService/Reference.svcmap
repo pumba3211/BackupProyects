@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ef40d88f-bd3e-4174-bd25-a2acc34a2e60" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55919/WebServices/Servicies/AdministrativosService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AdministrativosService.xsd" MetadataType="Schema" ID="b4e4b485-9d6f-4ea1-abf7-db7a41a28750" SourceId="1" SourceUrl="http://localhost:55919/WebServices/Servicies/AdministrativosService.svc?xsd=xsd2" />
+    <MetadataFile FileName="AdministrativosService1.xsd" MetadataType="Schema" ID="6e75b7cc-b0f3-49e9-917c-6e283ae475ee" SourceId="1" SourceUrl="http://localhost:55919/WebServices/Servicies/AdministrativosService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AdministrativosService.disco" MetadataType="Disco" ID="cd7c5a46-7b8e-4b40-bd74-6b06158b1b37" SourceId="1" SourceUrl="http://localhost:55919/WebServices/Servicies/AdministrativosService.svc?disco" />
+    <MetadataFile FileName="AdministrativosService2.xsd" MetadataType="Schema" ID="0d611493-e61f-4c98-9a4d-4311500cc70c" SourceId="1" SourceUrl="http://localhost:55919/WebServices/Servicies/AdministrativosService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AdministrativosService.wsdl" MetadataType="Wsdl" ID="925345e6-90e0-483b-8d5f-56d40baf7eb5" SourceId="1" SourceUrl="http://localhost:55919/WebServices/Servicies/AdministrativosService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

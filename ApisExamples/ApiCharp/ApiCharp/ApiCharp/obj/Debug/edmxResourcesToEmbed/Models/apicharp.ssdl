@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="apicharpModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="airplane">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="250" />
+    <Property Name="flying_hours" Type="int" />
+  </EntityType>
+  <EntityType Name="destination">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="250" />
+    <Property Name="description" Type="varchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="pilot">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="250" />
+    <Property Name="license" Type="varchar" MaxLength="250" />
+    <Property Name="flying_hours" Type="int" />
+  </EntityType>
+  <EntityType Name="Programming">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="destination_id" Type="int" />
+    <Property Name="pilot_id" Type="int" />
+    <Property Name="airplane_id" Type="int" />
+    <Property Name="start_fly" Type="datetime" />
+    <Property Name="end_fly" Type="datetime" />
+  </EntityType>
+  <Association Name="fk_airplane">
+    <End Role="airplane" Type="Self.airplane" Multiplicity="0..1" />
+    <End Role="Programming" Type="Self.Programming" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="airplane">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Programming">
+        <PropertyRef Name="airplane_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_destination">
+    <End Role="destination" Type="Self.destination" Multiplicity="0..1" />
+    <End Role="Programming" Type="Self.Programming" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="destination">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Programming">
+        <PropertyRef Name="destination_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_pilot">
+    <End Role="pilot" Type="Self.pilot" Multiplicity="0..1" />
+    <End Role="Programming" Type="Self.Programming" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="pilot">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Programming">
+        <PropertyRef Name="pilot_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="apicharpModelStoreContainer">
+    <EntitySet Name="airplane" EntityType="Self.airplane" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="destination" EntityType="Self.destination" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="pilot" EntityType="Self.pilot" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Programming" EntityType="Self.Programming" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="fk_airplane" Association="Self.fk_airplane">
+      <End Role="airplane" EntitySet="airplane" />
+      <End Role="Programming" EntitySet="Programming" />
+    </AssociationSet>
+    <AssociationSet Name="fk_destination" Association="Self.fk_destination">
+      <End Role="destination" EntitySet="destination" />
+      <End Role="Programming" EntitySet="Programming" />
+    </AssociationSet>
+    <AssociationSet Name="fk_pilot" Association="Self.fk_pilot">
+      <End Role="pilot" EntitySet="pilot" />
+      <End Role="Programming" EntitySet="Programming" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

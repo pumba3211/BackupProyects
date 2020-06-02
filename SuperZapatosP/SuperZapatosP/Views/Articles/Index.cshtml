@@ -1,0 +1,70 @@
+﻿@model IEnumerable<SuperZapatosApi.Models.Article>
+
+@{
+    ViewBag.Title = "Articles";
+}
+
+<h2>Articles</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create", "List", new { @class = "btn btn-default" })
+</p>
+<table class="table table-responsive table-bordered">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Description
+        </th>
+        <th>
+            Price
+        </th>
+        <th>
+            Total in self
+        </th>
+        <th>
+            Total in Vaul
+        </th>
+        <th>
+            Store
+        </th>
+        <th>Edit</th>
+        <th>Details</th>
+        <th>Delete</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.total_in_shelf)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.total_in_vault)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Store.name)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ArticleID }, new { @class = "btn btn-default" })
+            </td>
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.ArticleID }, new { @class = "btn btn-default" })
+            </td>
+            <td>
+                @Html.ActionLink("Delete", "Delete", new { id = item.ArticleID }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+    }
+
+</table>

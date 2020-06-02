@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="apicharpModelStoreContainer" CdmEntityContainer="apicharpEntities">
+    <EntitySetMapping Name="airplane">
+      <EntityTypeMapping TypeName="apicharpModel.airplane">
+        <MappingFragment StoreEntitySet="airplane">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="flying_hours" ColumnName="flying_hours" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="destination">
+      <EntityTypeMapping TypeName="apicharpModel.destination">
+        <MappingFragment StoreEntitySet="destination">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pilot">
+      <EntityTypeMapping TypeName="apicharpModel.pilot">
+        <MappingFragment StoreEntitySet="pilot">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="license" ColumnName="license" />
+          <ScalarProperty Name="flying_hours" ColumnName="flying_hours" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Programming">
+      <EntityTypeMapping TypeName="apicharpModel.Programming">
+        <MappingFragment StoreEntitySet="Programming">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="destination_id" ColumnName="destination_id" />
+          <ScalarProperty Name="pilot_id" ColumnName="pilot_id" />
+          <ScalarProperty Name="airplane_id" ColumnName="airplane_id" />
+          <ScalarProperty Name="start_fly" ColumnName="start_fly" />
+          <ScalarProperty Name="end_fly" ColumnName="end_fly" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Importamos nuestros CSS -->
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" type="text/css" href="css/carrera.css">
+
+    <!-- Importamos los scripts necesarios -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+    <script type="text/javascript" src="js/jquery.reveal.js"></script>
+    <script type="text/javascript" src="js/util.js"></script>
+    <script type="text/javascript" src="js/jquery.min"></script>
+    <meta charset=utf-8/>
+    <title>Agregar Carrera</title>
+</head>
+<body>
+<div class="conteiner">
+    <div id="myModal" class="reveal-modal">
+        <img class="logo" src="imagenes/UTN.png">
+        <p id="perfil">Perfiles</p>
+        <div class="Contenido">
+            <form action="agregarCarrera.php" method="post">
+                <label>Código</label><br/>
+                <input type="texto" value="" placeholder="Código" name="codigo"><br/><br/>
+
+                <label>Nombre</label><br/>
+                <input type="texto" value="" placeholder="Nombre" name="nombre"><br/><br/>
+
+                <label>Sede</label><br/>
+                <input type="texto" value="" placeholder="Sede" name="sede"><br/><br/>
+
+                <a href="carrera.php" onclick="agregarCarrera()"><input type="submit" id="editar" name="editar"
+                                                                        value="Agregar" target='_blank'></a><br/><br/>
+
+                <a href="carrera.php"><input type="button" id="cancelar" name="cancelar" value="Cancelar"
+                                             target='_blank'></a><br/><br/>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
