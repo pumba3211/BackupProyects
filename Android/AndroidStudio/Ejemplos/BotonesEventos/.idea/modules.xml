@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BotonesEventos.iml" filepath="$PROJECT_DIR$/BotonesEventos.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BotonesEventos.iml" filepath="$PROJECT_DIR$/.idea/modules/BotonesEventos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BotonesEventos.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BotonesEventos.app.iml" />
     </modules>
   </component>
 </project>
