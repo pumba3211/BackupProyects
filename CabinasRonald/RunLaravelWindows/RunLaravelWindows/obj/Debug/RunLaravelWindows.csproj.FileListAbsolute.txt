@@ -1,5 +1,0 @@
-C:\Users\Casa\Documents\CabinasRonald\RunLaravelWindows\RunLaravelWindows\bin\Debug\RunLaravelWindows.exe.config
-C:\Users\Casa\Documents\CabinasRonald\RunLaravelWindows\RunLaravelWindows\bin\Debug\RunLaravelWindows.exe
-C:\Users\Casa\Documents\CabinasRonald\RunLaravelWindows\RunLaravelWindows\bin\Debug\RunLaravelWindows.pdb
-C:\Users\Casa\Documents\CabinasRonald\RunLaravelWindows\RunLaravelWindows\obj\Debug\RunLaravelWindows.exe
-C:\Users\Casa\Documents\CabinasRonald\RunLaravelWindows\RunLaravelWindows\obj\Debug\RunLaravelWindows.pdb

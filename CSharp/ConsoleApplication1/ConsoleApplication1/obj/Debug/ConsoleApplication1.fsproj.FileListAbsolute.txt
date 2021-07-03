@@ -1,8 +1,0 @@
-C:\Users\Ronald\Documents\CSharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
-C:\Users\Ronald\Documents\CSharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.XML
-C:\Users\Ronald\Documents\CSharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
-C:\Users\Ronald\Documents\CSharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
-C:\Users\Ronald\Documents\CSharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\FSharp.Core.dll
-C:\Users\Ronald\Documents\CSharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\FSharp.Core.xml
-C:\Users\Ronald\Documents\CSharp\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
-C:\Users\Ronald\Documents\CSharp\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

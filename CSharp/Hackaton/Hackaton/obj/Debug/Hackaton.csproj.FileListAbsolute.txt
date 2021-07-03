@@ -1,7 +1,0 @@
-C:\Users\Ronald\Documents\CSharp\Hackaton\Hackaton\bin\Debug\Hackaton.exe.config
-C:\Users\Ronald\Documents\CSharp\Hackaton\Hackaton\bin\Debug\Hackaton.exe
-C:\Users\Ronald\Documents\CSharp\Hackaton\Hackaton\bin\Debug\Hackaton.pdb
-C:\Users\Ronald\Documents\CSharp\Hackaton\Hackaton\obj\Debug\Hackaton.Properties.Resources.resources
-C:\Users\Ronald\Documents\CSharp\Hackaton\Hackaton\obj\Debug\Hackaton.csproj.GenerateResource.Cache
-C:\Users\Ronald\Documents\CSharp\Hackaton\Hackaton\obj\Debug\Hackaton.exe
-C:\Users\Ronald\Documents\CSharp\Hackaton\Hackaton\obj\Debug\Hackaton.pdb

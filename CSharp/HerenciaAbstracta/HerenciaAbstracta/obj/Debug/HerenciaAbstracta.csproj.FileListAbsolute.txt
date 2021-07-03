@@ -1,5 +1,0 @@
-C:\Users\Ronald\Documents\CSharp\HerenciaAbstracta\HerenciaAbstracta\bin\Debug\HerenciaAbstracta.exe.config
-C:\Users\Ronald\Documents\CSharp\HerenciaAbstracta\HerenciaAbstracta\bin\Debug\HerenciaAbstracta.exe
-C:\Users\Ronald\Documents\CSharp\HerenciaAbstracta\HerenciaAbstracta\bin\Debug\HerenciaAbstracta.pdb
-C:\Users\Ronald\Documents\CSharp\HerenciaAbstracta\HerenciaAbstracta\obj\Debug\HerenciaAbstracta.exe
-C:\Users\Ronald\Documents\CSharp\HerenciaAbstracta\HerenciaAbstracta\obj\Debug\HerenciaAbstracta.pdb

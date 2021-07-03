@@ -1,2 +1,0 @@
-C:\Users\Ronald\Documents\CSharp\UTNProyecto\UTNProyecto\obj\Debug\UTNProyecto.csprojResolveAssemblyReference.cache
-C:\Users\ronal\Documents\Proyectos\CSharp\UTNProyecto\UTNProyecto\obj\Debug\UTNProyecto.csprojResolveAssemblyReference.cache
